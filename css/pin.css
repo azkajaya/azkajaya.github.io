@@ -623,7 +623,7 @@ footer .credit a {
 
 /* Media Queries */
 /* Laptop */
-@media (max-width: 1366px) {
+@media (max-width: 1800px) {
   html {
     font-size: 75%;
   }
