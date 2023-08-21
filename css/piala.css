@@ -709,7 +709,7 @@ footer .credit a {
 }
 
 /* Tablet */
-@media (max-width: 1800px) {
+@media (max-width: 758px) {
   #hamburger-menu {
     display: inline-block;
   }
