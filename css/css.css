@@ -802,6 +802,38 @@ footer .credit a {
   .modal-container {
     width: 85% !important;
   }
+
+    footer .wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../images/wave.svg);
+    background-size: 1000px 1000px;
+  }
+
+  footer .wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 3s linear infinite !important;
+  }
+
+  footer .wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave_02 2s linear infinite !important;
+  }
+
+  footer .wave#wave3 {
+    display: none;
+  }
+
+  footer .wave#wave4 {
+    display: none;
+  }
 }
 
 /* Mobile Phone */
